@@ -90,14 +90,14 @@ export function Node({
   reduced,
 }: {
   position: [number, number, number];
-  radius?: number;
-  color?: string;
-  label?: string;
-  emissive?: number;
-  onSelect?: (l: string | null) => void;
-  detail?: number;
-  pulse?: number;
-  reduced?: boolean;
+  radius?: number | undefined;
+  color?: string | undefined;
+  label?: string | undefined;
+  emissive?: number | undefined;
+  onSelect?: ((l: string | null) => void) | undefined;
+  detail?: number | undefined;
+  pulse?: number | undefined;
+  reduced?: boolean | undefined;
 }) {
   const ref = useRef<THREE.Mesh>(null);
   const hover = useRef(false);

@@ -35,8 +35,12 @@ export function ProjectCard({
           mx.set(0);
           my.set(0);
         }}
-        style={tilt ? { rotateX: rx, rotateY: ry, transformPerspective: 1200 } : undefined}
-        whileHover={tilt ? { y: -6 } : undefined}
+        {...(tilt
+          ? {
+              style: { rotateX: rx, rotateY: ry, transformPerspective: 1200 },
+              whileHover: { y: -6 },
+            }
+          : {})}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
         className="group relative grid gap-8 rounded-3xl border border-border bg-surface/40 p-5 transition-colors duration-500 hover:border-primary/40 sm:p-8 lg:grid-cols-2 lg:gap-12 lg:p-10"
       >

@@ -39,7 +39,7 @@ export function AssistiveTouchCursor() {
       setVisible(true);
       const el = e.target as HTMLElement | null;
       const hit = el?.closest?.("[data-cursor]") as HTMLElement | null;
-      const attr = hit?.dataset.cursor as Mode | undefined;
+      const attr = hit?.dataset['cursor'] as Mode | undefined;
       if (attr) setMode(attr);
       else if (el?.closest("a, button, input, textarea, [role='button']")) setMode("button");
       else setMode("idle");
