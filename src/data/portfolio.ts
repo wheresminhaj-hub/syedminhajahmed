@@ -18,16 +18,17 @@ export const PERSON = {
   program: "Computer Science & Machine Learning",
   college: "Vaagdevi College of Engineering",
   year: "3rd Year",
-  statement: "Building intelligent systems for real-world problems.",
+  statement:
+    "I engineer digital infrastructure where high-performance logic meets elegant interfaces.",
   intro:
-    "I'm Syed Minhaj Ahmed, a 3rd-year Computer Science and Machine Learning student at Vaagdevi College of Engineering, exploring artificial intelligence, machine learning, software development, and practical technology.",
+    "I don't just build applications — I design systems that think, scale, and feel effortless to use. From intelligent ML pipelines to polished user interfaces, every project is built to perform and communicate clearly.",
   positioning: [
     "AI/ML",
-    "Software Development",
-    "Problem Solving",
-    "Building Practical Technology",
+    "Systems Engineering",
+    "High-Performance Logic",
+    "Elegant Interfaces",
   ],
-  focus: "AI / ML / Software Development",
+  focus: "AI / ML / Systems Engineering",
 } as const;
 
 export const NAV_ITEMS = [
@@ -39,12 +40,12 @@ export const NAV_ITEMS = [
 ] as const;
 
 export const ABOUT = {
-  heading: "A curious mind building useful technology.",
+  heading: "Engineering systems that perform as well as they communicate.",
   paragraphs: [
-    "I'm Syed Minhaj Ahmed, a third-year Computer Science and Machine Learning student at Vaagdevi College of Engineering. I'm interested in artificial intelligence, machine learning, software development, and building practical solutions to real-world problems.",
-    "I enjoy taking ideas from concept to working applications, experimenting with emerging technologies, and finding ways to make complex information more useful and accessible.",
+    "I'm Syed Minhaj Ahmed, a third-year Computer Science and Machine Learning student at Vaagdevi College of Engineering. I approach software as infrastructure: reliable backends, thoughtful interfaces, and intelligent logic working together as one system.",
+    "Whether it's an AI-powered food analysis pipeline or a documentation copilot for academic accreditation, I focus on building products where performance, clarity, and usability are inseparable.",
   ],
-  networkNodes: ["AI", "ML", "SOFTWARE", "PROBLEM SOLVING"],
+  networkNodes: ["AI", "ML", "INFRASTRUCTURE", "ELEGANT UI"],
 } as const;
 
 export type Project = {
@@ -221,24 +222,24 @@ export const EDUCATION = [
 
 export const WHAT_I_BUILD = [
   {
+    title: "DIGITAL INFRASTRUCTURE",
+    text: "Engineering systems, not just apps — robust backends, smart pipelines, and connected experiences.",
+  },
+  {
+    title: "HIGH-PERFORMANCE LOGIC",
+    text: "Designing code that scales, reasons, and delivers results under real-world conditions.",
+  },
+  {
+    title: "ELEGANT INTERFACES",
+    text: "Crafting interfaces that make complex systems feel simple, fast, and human.",
+  },
+  {
     title: "INTELLIGENT SYSTEMS",
-    text: "Building applications that use AI to make information more useful.",
-  },
-  {
-    title: "MACHINE LEARNING",
-    text: "Exploring models, data, and intelligent approaches to real-world problems.",
-  },
-  {
-    title: "SOFTWARE",
-    text: "Turning ideas into usable applications and digital experiences.",
-  },
-  {
-    title: "PROBLEM SOLVING",
-    text: "Breaking complex problems into practical technical solutions.",
+    text: "Combining AI/ML with solid engineering to build products that think and adapt.",
   },
 ] as const;
 
 export const CONTACT = {
-  heading: "Have an idea worth building?",
-  support: "Let's turn it into something useful.",
+  heading: "Have a system worth building?",
+  support: "Let's engineer it together.",
 } as const;

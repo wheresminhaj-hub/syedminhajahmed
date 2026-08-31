@@ -4,7 +4,7 @@ import { scrollToSection, usePrefersReducedMotion } from "@/lib/use-device";
 import { LazyKnowledgeGraph } from "./three/LazyViz";
 import { ActionButton } from "./ui-kit";
 
-const META = ["AI SYSTEM // ONLINE", "ML // ACTIVE", "BUILDING // 2026"];
+const META = ["INFRASTRUCTURE // ONLINE", "ML // ACTIVE", "BUILDING // 2026"];
 
 export function Hero() {
   const reduced = usePrefersReducedMotion();
