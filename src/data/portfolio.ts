@@ -19,7 +19,7 @@ export const PERSON = {
   college: "Vaagdevi College of Engineering",
   year: "3rd Year",
   statement:
-    "I engineer digital infrastructure where high-performance logic meets elegant interfaces.",
+    "I ENGINEER DIGITAL INFRASTRUCTURE WHERE HIGH-PERFORMANCE LOGIC MEETS ELEGANT INTERFACES.",
   intro:
     "I don't just build applications — I design systems that think, scale, and feel effortless to use. From intelligent ML pipelines to polished user interfaces, every project is built to perform and communicate clearly.",
   positioning: [
